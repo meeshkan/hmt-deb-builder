@@ -11,6 +11,8 @@ apt update
 apt install meeshkan
 ```
 
+Depending on the environment `ca-certificates` may already be installed, and `sudo` not necessary. See [https://gitlab.com/fornwall/ci-test](https://gitlab.com/fornwall/ci-test) for how to install the package in the GitLab CI environment.
+
 # How to build the debian package
 Run
 
