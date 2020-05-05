@@ -9,5 +9,5 @@ RUN apt-get -qq update && \
         python3-pip \
         python3-venv
 
-COPY build-meeshkan-deb.sh /root/build-meeshkan-deb.sh
-ENTRYPOINT /root/build-meeshkan-deb.sh
+COPY build-hmt-deb.sh /root/build-hmt-deb.sh
+ENTRYPOINT /root/build-hmt-deb.sh

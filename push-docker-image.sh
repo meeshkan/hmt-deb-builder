@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e -u
 
-docker push fredrikfornwall/meeshkan-deb-builder
+docker push fredrikfornwall/hmt-deb-builder
