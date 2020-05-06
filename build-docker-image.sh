@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e -u
 
-docker build -t fredrikfornwall/meeshkan-deb-builder .
+docker build -t meeshkan/hmt-deb-builder .
