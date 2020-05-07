@@ -15,7 +15,7 @@ Depending on the environment `ca-certificates` may need to be installed, and `su
 Run the following command to create a deb file (such as `hmt-0.2.16.deb`) in the current directory:
 
 ```sh
-docker run -v $PWD:/out meeshkan/hmt-deb-builder
+docker run --rm -v $PWD:/out meeshkan/hmt-deb-builder
 ```
 
 It will use the [latest hmt release on PyPi](https://pypi.org/project/hmt/).
